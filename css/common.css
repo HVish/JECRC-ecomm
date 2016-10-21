@@ -1,0 +1,32 @@
+body {
+    background: #EEE;
+}
+
+.top-background {
+    width: 100%;
+    height: 150px;
+    z-index: -1;
+    background-color: rgba(0, 169, 0, 0.78);
+}
+.container-fluid {
+	padding: 0px;
+}
+.section {
+	width: 100%;
+    padding: 30px;
+}
+
+.section:nth-child(2n) {
+    background: #DDD;
+}
+
+.section:nth-child(2n+1) {
+    background: #ECECEC;
+}
+.product-wrapper {
+	padding: 0px 10px;
+}
+.title {
+	border-bottom: 2px solid orange;
+	margin-bottom: 20px;
+}
