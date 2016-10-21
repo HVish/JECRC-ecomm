@@ -7,4 +7,5 @@ $(document).ready(function() {
     }
 	marginFix();
     $(window).resize(marginFix);
+	$('.nav-item a[href="'+location.href.split("/").pop()+'"]').parent().addClass('active');
 });

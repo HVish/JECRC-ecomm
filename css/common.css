@@ -2,14 +2,6 @@ body {
     background: #EEE;
 }
 
-
-/*.top-background {
-    width: 100%;
-    height: 100px;
-    z-index: -1;
-    background-color: rgba(0, 169, 0, 0.78);
-}*/
-
 nav {
     border-bottom: 2px solid blue;
 }
@@ -21,6 +13,12 @@ nav {
 .section {
     width: 100%;
     padding: 30px 50px;
+}
+
+.about-text {
+    background: #FFF;
+    padding: 25px;
+    border-radius: 3px;
 }
 
 .section:nth-child(2n) {
@@ -45,4 +43,20 @@ nav {
     display: block;
     margin: 0 auto;
     padding: 20px 0px 0px;
+}
+
+.about-text, .contact-wrapper {
+    position: absolute;
+    width: 80%;
+    margin: 50px 10%;
+    padding: 50px;
+    background: #FFF;
+}
+
+.contact {
+    border-radius: 3px;
+}
+
+.contact input {
+	margin-bottom: 15px;
 }
